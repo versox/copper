@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>510</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>510</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="switchBtn">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>440</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Grid</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_07">
+    <property name="geometry">
+     <rect>
+      <x>143</x>
+      <y>83</y>
+      <width>51</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_15">
+    <property name="geometry">
+     <rect>
+      <x>256</x>
+      <y>83</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_02">
+    <property name="geometry">
+     <rect>
+      <x>87</x>
+      <y>160</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_05">
+    <property name="geometry">
+     <rect>
+      <x>143</x>
+      <y>237</y>
+      <width>51</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_03">
+    <property name="geometry">
+     <rect>
+      <x>87</x>
+      <y>83</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_11">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>83</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_06">
+    <property name="geometry">
+     <rect>
+      <x>143</x>
+      <y>160</y>
+      <width>51</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_12">
+    <property name="geometry">
+     <rect>
+      <x>256</x>
+      <y>317</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_08">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>317</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_04">
+    <property name="geometry">
+     <rect>
+      <x>143</x>
+      <y>317</y>
+      <width>51</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_14">
+    <property name="geometry">
+     <rect>
+      <x>256</x>
+      <y>160</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_09">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>237</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_13">
+    <property name="geometry">
+     <rect>
+      <x>256</x>
+      <y>237</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="drawLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>491</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_00">
+    <property name="geometry">
+     <rect>
+      <x>87</x>
+      <y>317</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="order" stdset="0">
+     <UInt>0</UInt>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_01">
+    <property name="geometry">
+     <rect>
+      <x>87</x>
+      <y>237</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_10">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>160</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <zorder>drawLabel</zorder>
+   <zorder>l_07</zorder>
+   <zorder>l_15</zorder>
+   <zorder>l_02</zorder>
+   <zorder>l_05</zorder>
+   <zorder>l_03</zorder>
+   <zorder>l_11</zorder>
+   <zorder>l_06</zorder>
+   <zorder>l_12</zorder>
+   <zorder>l_08</zorder>
+   <zorder>l_04</zorder>
+   <zorder>l_14</zorder>
+   <zorder>l_09</zorder>
+   <zorder>l_13</zorder>
+   <zorder>l_00</zorder>
+   <zorder>l_01</zorder>
+   <zorder>l_10</zorder>
+   <zorder>switchBtn</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
